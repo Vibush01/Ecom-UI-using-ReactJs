@@ -1,6 +1,3 @@
-// src/components/Footer.tsx
-import React from 'react';
-
 const Footer = () => {
   return (
     <footer className="bg-[#262626] text-gray-300 pt-16 pb-8">

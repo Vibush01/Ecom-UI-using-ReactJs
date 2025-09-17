@@ -1,7 +1,6 @@
-// src/App.tsx
-import React from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import ProductListingPage from './pages/ProductListingPage';
 
 function App() {
   return (
@@ -9,7 +8,7 @@ function App() {
       <Navbar />
 
       <main className="flex-grow container mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold">Products</h1>        
+        <ProductListingPage />
       </main>
 
       <Footer />
